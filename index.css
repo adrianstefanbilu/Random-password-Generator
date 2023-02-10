@@ -1,0 +1,87 @@
+@font-face {
+    font-family: righteous;
+    src: url(Righteous-Regular.ttf);
+  }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: righteous;
+    width: 400px;
+    background: #230C33;
+    height: 350px;
+    text-align: center;
+    border: 5px solid #D5F2E3;
+    color: #CAA8F5;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+#text2
+{
+    margin: 30px 0px 30px 0px;
+    font-size: 20px;
+}
+#text1
+{
+    color: #683899;
+}
+#generate
+{
+    transition: 0.2s;
+    background-color: #CAA8F5;
+    border: 3px solid #552a80;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: righteous;
+    margin: 0px 0px 10px 0px;
+    width: 170px;
+    height: 35px;
+    font-size: 14px;
+    cursor: pointer;
+}
+#generate:hover{
+    background-color: #683899;
+    color:#CAA8F5;
+}
+
+#big-text{
+    border-bottom: 2px solid #9984D4;
+    margin: 30px;
+    border-radius: 2px;
+
+}
+#buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.passwords{
+    width: 140px;
+    height: 30px;
+    gap:50px;
+    background-color: #CAA8F5;
+    border: 3px solid #683899;
+    border-radius: 5px;
+    font-family: righteous;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor:pointer;
+}
